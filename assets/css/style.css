@@ -149,10 +149,10 @@ img {
 }
 
 .app__social {
+    margin-top: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 48px;
 }
 
 .app__social-link {
@@ -206,7 +206,6 @@ img {
     margin-top: 16px;
     font-weight: 400;
     font-size: 14px;
-    align-content: center;
     color: #ccc;
     position: relative;
 }

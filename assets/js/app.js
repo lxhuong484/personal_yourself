@@ -25,3 +25,16 @@ iconDarkLight.onclick = (e) => {
         iconNode.classList.remove('bx-moon')
     }
 }
+
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2800,
+    // reset: true,
+})
+
+sr.reveal('.app__user-name, .app__user-img, .app__user-desc, .app__dark-mode-icon--wrapper', {
+    origin: 'left',
+    interval: 200,
+})
