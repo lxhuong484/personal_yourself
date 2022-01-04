@@ -34,7 +34,7 @@ const sr = ScrollReveal({
     // reset: true,
 })
 
-sr.reveal('.app__user-name, .app__user-img, .app__user-desc, .app__dark-mode-icon--wrapper', {
+sr.reveal('.app__user-name, .app__user-img, .app__user-desc', {
     origin: 'left',
     interval: 200,
 })
