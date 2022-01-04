@@ -12,7 +12,6 @@
 }
 
 body {
-    min-height: 100vh;
     background-image: linear-gradient(90deg, #56adff, #b349ec);
     font-family: "Poppins", sans-serif;
 }
@@ -44,6 +43,11 @@ img {
     50% {
         border-right: 10px solid #96ee1c;
     }
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
 }
 
 .app.dark {
